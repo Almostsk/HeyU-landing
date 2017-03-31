@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+}
+
+
+
+
+/* header nav*/
+
+header {
+    height: 900px;
+    background: url(../images/Rectangle.png) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.navigation {
+    width: 100%;
+    height: 50px;
+}
+
+.logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.logo img {
+    width: 50%
+}
+
+.menu {
+    float: right;
+    margin: 0 40px;
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+}
+
+.menu li {
+    float: right;
+    margin: 15px;
+    text-decoration: none;
+}
+
+li a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+.faq:hover:before,.about:hover:before,.support:hover:before,.blog:hover:before {
+    -webkit-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+    -moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+    transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+    opacity: 1;
+}
+
+ .faq:before,.about:before,.support:before,.blog:before {
+    color: #214aed;
+    text-decoration: none;
+    content: attr(data-hover);
+    position: absolute;
+    opacity: 0;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    -webkit-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+    -moz-transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+    transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.5s, opacity 0.5s;
+    pointer-events: none;
+}
+
+
+/* header info */
+
+.main-screen {
+    display: flex;
+}
+
+
+/* text*/
+
+.download-info {
+    width: 50%;
+    margin: auto 0;
+    color: #fff;
+}
+
+.download-info h1 {
+    margin-bottom: 20px;
+}
+
+.download-info p {
+    font-size: 1.2rem;
+    margin-bottom: 40PX;
+}
+
+.download-info button {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background: #fff;
+    color: #e42b36;
+}
+
+
+/* img */
+
+.main-screen img {
+    margin-top: 60px;
+    margin-left: 30px;
+    height: 70%;
+    width: 35%;
+}
+
+.e-messages,
+.keep {
+    display: block;
+    margin: 40px auto;
+}
+
+
+/*2-nd part*/
+
+.conversation-img,
+.keep-img {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 50px;
+    width: 50%;
+}
+
+.conversation {
+    width: 47%;
+}
+
+.messages {
+    width: 47%;
+    position: absolute;
+}
+
+.messages {
+    top: 50px;
+    left: 150px;
+}
+
+.e-text,
+.keep-in {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+span {
+    color: red;
+}
+
+.e-text h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.e-text p {
+    width: 70%;
+    margin-top: 20px;
+}
+
+
+/* 3-rd part */
+
+.review {
+    margin-top: 200px;
+    height: auto;
+}
+
+.review h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/*review and comments*/
+
+.comment {
+    margin-top: 50px;
+}
+
+.comment1 {
+    margin-top: 30px;
+}
+
+.c-text {
+    padding: 5px;
+    border: 1px solid #7c7c7c;
+    border-radius: 5%;
+}
+
+.user {
+    margin-top: 40px;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+}
+
+.user-name {
+    float: right;
+    margin-right: 30px;
+    width: 40%;
+}
+
+.user-name p:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-name p:last-child {
+    color: darkgrey;
+}
+
+
+/*video*/
+
+.video {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    background: url(../images/background-2.png) no-repeat;
+    background-position: center;
+    background-size: 150%
+}
+
+
+/*left and right sidebar*/
+
+.left-info,
+.right-info,
+.center-info {
+    color: #fff;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.st-conv,
+.free-calls {
+    text-align: right;
+    width: 100%;
+}
+
+.take-pic,
+send-vid {
+    text-align: left;
+    width: 100%;
+}
+
+.st-conv h2,
+.free-calls h2,
+.take-pic h2,
+.send-vid h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.st-conv p,
+.free-calls p,
+.take-pic p,
+.send-vid p {
+    font-size: 14px;
+}
+
+.center-info {
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.center-info img {
+    height: 120%;
+}
+
+
+/* subscribe section */
+
+.subscribe {
+    margin-top: 150px;
+    min-height: 300px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.subscribe h1 {
+    font-weight: 600;
+}
+
+.subscribe p {
+    font-size: 16px;
+    color: lightgrey;
+}
+
+.email {
+    text-align: center;
+    min-width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+}
+.email:focus {
+    outline: none;
+}
+
+.subscribe-but {
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.subscribe-but:hover {
+    background: -webkit-linear-gradient(top, rgba(183, 222, 237, 1) 0%, rgba(33, 180, 226, 1) 0%, rgba(113, 206, 239, 1) 0%, rgba(218, 10, 69, 1) 100%);
+}
+
+
+/* download now */
+
+.download-but {
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.download-but button {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.download-but button:hover {
+    background: -webkit-linear-gradient(top, rgba(183, 222, 237, 1) 0%, rgba(33, 180, 226, 1) 0%, rgba(113, 206, 239, 1) 0%, rgba(218, 10, 69, 1) 100%);
+    transition: 3s;
+}
+
+.download-but h1 {
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.download-but p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: darkgrey;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.language {
+    margin: auto 30px;
+    height: 40px;
+    width: 150px;
+}

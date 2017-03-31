@@ -1,0 +1,62 @@
+h1 {
+    font-size: 2rem;
+}
+
+header {
+    height: 600px;
+}
+
+.e-messages {
+    height: 700px;
+}
+
+.conversation-img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.e-text {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.review {
+    height: 1000px;
+    margin-top: 50px;
+}
+
+.video {
+    height: auto;
+    background-size: cover;
+}
+
+.left-info,
+.right-info {
+    height: 260px;
+}
+
+.left-info,
+.right-info,
+.center-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: ;
+}
+
+.center-info {
+    height: 600px;
+    margin-bottom: 130px;
+}
+
+.st-conv,
+.free-calls,
+.take-pic,
+.send-vid {
+    height: 250px;
+    text-align: center;
+    width: 48%;
+}

@@ -1,0 +1,21 @@
+
+    h1 {
+        font-size: 3rem;
+    }
+header {
+    height: 800px;
+}
+.video {
+    height: auto;
+    background-size: cover;
+}
+.left-info,
+.right-info,
+.center-info {
+    color: #fff;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
